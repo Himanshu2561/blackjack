@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex-row-1, .flex-row-2, .flex-row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.flex-row-1, .flex-row-2 {
+    background: url(https://media.istockphoto.com/photos/green-poker-table-felt-background-picture-id467583755?b=1&k=20&m=467583755&s=170667a&w=0&h=L_GLnugsN2RDrxjXPoBeUud9YGhQk7kKJIsgSgqRXdk=) center;
+    color: #fff;
+}
+
+.flex-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 410px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+table, th, td {
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: large;
+}
